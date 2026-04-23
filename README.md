@@ -1,2 +1,35 @@
-# Longterm-Analysis-Elderly-Care
-Academia Sinica Data Science Competition Award Project: Analyzing temporal changes and factors of long-term care needs among the elderly.
+# 高齡族群長照使用之時間變化與影響因素分析
+
+![Field](https://img.shields.io/badge/Field-Data_Science-blue.svg)
+![Award](https://img.shields.io/badge/Award-Honorable_Mention-orange.svg)
+![Institution](https://img.shields.io/badge/Organizer-Academia_Sinica-red.svg)
+
+本專案於 **中研院統計科學研究所「2025 統計科學營暨資料科學競賽」** 中榮獲 **優選**。研究核心在於運用大數據分析技術與統計建模，探討台灣高齡者在不同生命階段對長期照顧服務需求的動態變遷，並識別背後的核心影響因子。
+
+## 研究動機與背景
+隨著台灣步入超高齡社會，精準分配長照資源成為政策關鍵。本研究旨在解決以下問題：
+* 高齡者的長照需求如何隨著時間推移而演變？
+* 哪些社會經濟因素、生理指標是預測長照使用的關鍵變數？
+
+---
+
+## 技術實作 
+
+### 1. 數據來源與預處理
+* **數據集**：採用中研院提供之長期追蹤調查數據。
+* **變數對齊**：處理不同年度調查間的缺失值與問卷題目變異，確保時間軸上的數據一致性。
+* **特徵工程**：構建失能程度指標 (ADLs/IADLs)、社會支持系統維度以及心理健康分值。
+
+### 2. 統計建模與分析
+* **縱貫性數據分析**：運用 **廣義估計方程式 (GEE)** 或 **線性混合效應模型 (LMM)** 處理重複測量數據的自相關性。
+* **變遷趨勢視覺化**：透過 Python Matplotlib/Seaborn 繪製多年度需求位移圖，識別需求激增的關鍵年齡轉折點。
+
+---
+
+## 關鍵發現與政策建議
+* **需求規律**：識別出高齡者在喪偶或獨居後，對社會性長照服務的需求呈現非線性成長。
+* **影響因子**：研究證實「家庭支持強度」對於長照使用的延緩具備統計顯著性，建議政策應強化喘息服務以維持家庭支持系統。
+* **精準預測**：建立之模型能有效識別具備高度長照潛在需求的風險群體，協助行政機關優化資源配置。
+
+---
+📫 **聯絡資訊**: [raycheng940629@gmail.com](mailto:raycheng940629@gmail.com)
