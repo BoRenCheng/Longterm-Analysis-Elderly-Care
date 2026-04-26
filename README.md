@@ -35,6 +35,11 @@
 
 證書: [資料科學漫步_優選](資料科學漫步_優選.PNG)、[資料科學漫步_優選_英文](資料科學漫步_優選_英文.PNG)
 
+---
+## 授權
+Copyright (c) 2026 Bo-Ren Cheng(BoRenCheng)
+
+本專案採用 MIT License 授權。
 
 
 
